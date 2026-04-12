@@ -189,4 +189,46 @@
 		},
 		"_iconSourceURI": "http://libgen.rs/favicon.ico"
 	}
+	{
+		"_name": "Wikipedia",
+		"_alias": "Wikipedia",
+		"_description": "Wikipedia",
+		"_icon": "https://wikipedia.org/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://wikipedia.org/wiki/{z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://wikipedia.org/favicon.ico"
+	},
+	{
+		"_name": "Zlibrary Book",
+		"_alias": "Zlibrary Book",
+		"_description": "Zlibrary Book",
+		"_icon": "https://z-lib.org/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://b-ok.cc/s/{z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://z-lib.org/favicon.ico"
+	},
+	{
+		"_name": "SoBooks",
+		"_alias": "SoBooks",
+		"_description": "SoBooks",
+		"_icon": "https://sobooks.cc/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://sobooks.cc/search/{z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://sobooks.cc/favicon.ico"
+	},
 ]
