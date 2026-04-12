@@ -13,6 +13,19 @@
 		},
 		"_iconSourceURI": "https://crossref.org/favicon.ico"
 	},
+		{
+		"_name": "Worldcat Bard using Author & Title",
+		"_alias": "Worldcat Bard",
+		"_description": "Look up book on Bard Worldcat using Author & Title",
+		"_hidden": false,
+		"_urlTemplate": "https://bardcollege.on.worldcat.org/search?queryString={rft:aulast?}+{z:title}",
+		"_urlParams": [],
+		"_method": "GET",
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:book",
+			"z": "http://www.zotero.org/namespaces/openSearch#"
+		},
+	},
 	{
 		"_name": "Google Scholar Search",
 		"_alias": "Google Scholar",
