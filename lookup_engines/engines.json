@@ -24,6 +24,32 @@
 		"_urlNamespaces": {
 			"rft": "info:ofi/fmt:kev:mtx:book",
 			"z": "http://www.zotero.org/namespaces/openSearch#"
+		}
+	},
+		{
+		"_name": "NDL Search",
+		"_alias": "NDL",
+		"_description": "NDL Search",
+		"_hidden": false,
+		"_urlTemplate": "https://ndlsearch.ndl.go.jp/search?cs=bib&collapse=none&display=panel&from=0&size=20&sort=published:{z:year?}sc&q-title={z:title}&q-author={rft:aufirst?}+{rft:aulast?}&r-year={z:year?},&f-ht=ndl&f-ht=library",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:journal",
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		}
+	},
+	{
+		"_name": "CiNii Search",
+		"_alias": "CiNii",
+		"_description": "CiNii Search",
+		"_hidden": false,
+		"_urlTemplate": "https://cir.nii.ac.jp/articles?title={z:title}&creator={rft:aufirst?}+{rft:aulast?}&doi={z:DOI}&from={z:year?}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:journal",
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
 		},
 	},
 	{
